@@ -168,7 +168,7 @@ wget https://raw.githubusercontent.com/judiba/Main/master/DadosMonitor -O /bin/D
 chmod +x /bin/DadosMonitor
 sed -i -e 's/\r$//' /bin/DadosMonitor
 
-wget https://raw.githubusercontent.com/judiba/Main/master/OpenVPN -O /bin/OpenVPN
+wget https://raw.githubusercontent.com/DaniloBorgz/VPSPack/master/OpenVPN -O /bin/OpenVPN
 chmod +x /bin/OpenVPN
 sed -i -e 's/\r$//' /bin/OpenVPN
 
