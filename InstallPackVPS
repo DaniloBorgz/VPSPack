@@ -89,7 +89,7 @@ apt-get autoclear -y 1>/dev/null 2>/dev/null
 iptables -F
 
 clear
-wget https://raw.githubusercontent.com/judiba/Main/master/ConfAtual -O /bin/ConfAtual
+wget https://raw.githubusercontent.com/DaniloBorgz/VPSPack/master/ConfAtual -O /bin/ConfAtual
 chmod +x /bin/ConfAtual
 sed -i -e 's/\r$//' /bin/ConfAtual
 
