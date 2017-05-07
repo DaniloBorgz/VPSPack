@@ -21,8 +21,8 @@ echo "|*xTorrents*xSPAM*xDDoS*xHACKING*xFLOOD| " >> $local
 echo "Informe seu Telegram para contato"
 read -p ":@" telegram
 echo "Entre em contato pelo Telegram @$telegram" >> $local
-echo "|Config by: @judiba|" >> $local
-echo "|R3V1V3R VPS|" >> $local
+echo "|Config by: @daniloborgs|" >> $local
+echo "|Danilo VPS|" >> $local
 echo "Banner /etc/bannervps" >> /etc/ssh/sshd_config
 service ssh restart > /dev/null 2> /dev/null
 service sshd restart > /dev/null 2> /dev/null
