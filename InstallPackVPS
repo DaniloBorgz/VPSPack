@@ -1,7 +1,7 @@
 #!/bin/bash
-##R3V1V3R VPS 
+##Danilo VPS 
 ##PackVPS 1.0
-##By: @judiba
+##By: @daniloborgs
 
 corPadrao="\033[0m"
 preto="\033[0;30m"
@@ -113,7 +113,7 @@ wget https://raw.githubusercontent.com/judiba/Main/master/TesteConexao -O /bin/S
 chmod +x /bin/SpeedTest
 sed -i -e 's/\r$//' /bin/SpeedTest
 
-wget https://raw.githubusercontent.com/judiba/Main/master/Banner -O /bin/Banner
+wget https://raw.githubusercontent.com/DaniloBorgz/VPSPack/master/Banner -O /bin/Banner
 chmod +x /bin/Banner
 sed -i -e 's/\r$//' /bin/Banner
 
